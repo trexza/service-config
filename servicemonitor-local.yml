@@ -9,7 +9,6 @@ eureka:
       serviceUrl:
         defaultZone: http://localhost:8761/eureka/
 
-// **************** Rabbit MQ Properties ***********************
 spring:
   rabbitmq:
     host: localhost
