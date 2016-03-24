@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:F:/Work/cgs/Trexza/Framework/testdb
+
+    username: sa
+    password: sa
+    driverClassName: org.h2.Driver
+    initialize: false
+    maxActive: 10
+  
+  rabbitmq:
+    host: localhost
+    virtualHost: /
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
