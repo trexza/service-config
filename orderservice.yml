@@ -1,0 +1,24 @@
+spring:
+  data:
+    rest:
+      basePath: /library
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto:
+
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+
+audit:
+  default:
+    queue: audit.defaultQueue
+    exchange: audit.defaultExchange
+    routingKey: audit.defaultBinding
+
+logging:
+  level:
+    org:
+      springframework:
+        data: DEBUG
