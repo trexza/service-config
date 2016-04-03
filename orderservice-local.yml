@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:file:F:/Work/cgs/Trexza/Framework/testdb
+    url: jdbc:h2:file:F:/Work/cgs/Trexza/Framework/testdb1
 
     username: sa
     password: sa
