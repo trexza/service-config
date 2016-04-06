@@ -18,3 +18,24 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
+kafka:
+  topic:
+    name: order
+  auto:
+    commit:
+      interval:
+        ms: 1000
+  group:
+    id: orderService
+  num:
+    threads: 1
+zookeeper:
+  connect:
+    localhost:2181
+  session:
+    timeout:
+      ms: 400
+  sync:
+    time:
+      ms: 200
