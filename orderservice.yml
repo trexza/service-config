@@ -22,3 +22,8 @@ logging:
     org:
       springframework:
         data: DEBUG
+
+javax:
+  naming:
+    Context:
+      INITIAL_CONTEXT_FACTORY: org.apache.naming.java.javaURLContextFactory
