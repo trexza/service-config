@@ -1,0 +1,17 @@
+turbine:
+  appConfig: micros, auditservice
+  clusterNameExpression: 'default'
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+  client:
+      serviceUrl:
+        defaultZone: http://192.168.61.100:8761/eureka/
+
+spring:
+  rabbitmq:
+    host: 192.168.61.14
+    virtualHost: /
+    username: guest
+    password: guest
