@@ -35,7 +35,7 @@ zookeeper:
     localhost:2181
   session:
     timeout:
-      ms: 400
+      ms: 800
   sync:
     time:
-      ms: 200
+      ms: 400
