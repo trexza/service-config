@@ -29,7 +29,7 @@ kafka:
   group:
     id: orderService
   num:
-    threads: 1
+    threads: 2
 zookeeper:
   connect:
     localhost:2181
