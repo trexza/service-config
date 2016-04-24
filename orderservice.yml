@@ -26,7 +26,7 @@ logging:
 log4j:
   logger:
     kafka: INFO,stdout
-  rootLogger: INFO,stdout
+  rootLogger: DEBUG,stdout
 
 javax:
   naming:
