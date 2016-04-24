@@ -32,3 +32,8 @@ javax:
   naming:
     Context:
       INITIAL_CONTEXT_FACTORY: org.apache.naming.java.javaURLContextFactory
+      
+serverProperties:
+  tomcat: 
+    accesslog: 
+      enabled: true
