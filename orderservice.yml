@@ -23,6 +23,10 @@ logging:
       springframework:
         data: INFO
 
+log4j:
+  logger:
+    kafka: INFO,stdout
+
 javax:
   naming:
     Context:
