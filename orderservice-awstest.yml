@@ -1,6 +1,6 @@
 spring:
   rabbitmq:
-    host: 192.168.61.14
+    host: 10.1.100.15
     virtualHost: /
     username: guest
     password: guest
@@ -8,7 +8,7 @@ spring:
   datasource:
     driverClassName: org.postgresql.Driver
     maxActive: 2
-    url: jdbc:postgresql://10.1.10.101:5432/trexzadb
+    url: jdbc:postgresql://10.1.100.15:5432/trexzadb
     username: trexzadb
     password: trexza
 
