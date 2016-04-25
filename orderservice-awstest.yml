@@ -29,7 +29,7 @@ kafka:
   group:
     id: orderService
   num:
-    threads: 2
+    threads: 1
 zookeeper:
   connect: 10.1.10.101:2181
   session:
